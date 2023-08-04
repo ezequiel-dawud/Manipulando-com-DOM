@@ -9,7 +9,7 @@
 }
 
 body {
-    background: url(../img/fundo.jpg);
+    background: url(../img/pexels-riccardo-300857.jpg);
     background-position: center center;
     background-size: cover cover;
     padding: 0;
@@ -38,24 +38,24 @@ main {
 }
 
 .robo {
-    height: 110%;
-    z-index: 1;
+    height: 100%;
+    z-index: 2;
     position: absolute;
     left: -20%;
     top: -5%;
 }
 
 .titulo {
-    transform: rotate(180deg);
+    transform: rotate(0deg);
     font-weight: 500;
     font-size: 130px;
     position: absolute;
-    bottom: 7rem;
-    left: -3rem;
+    bottom: -5rem;
+    margin-top: auto;
     line-height: 0.8;
-    writing-mode: vertical-rl;
+    z-index: 99;
     text-orientation: mixed;
-    color: rgba(255,255,255,0.8)
+    color: rgba(230, 0, 0, 0.8)
 }
 
 .box {
